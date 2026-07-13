@@ -30,7 +30,6 @@ body{
 }
 ul{
     list-style-type: none;
-    background-color: tomato;
     padding: 0px;
     margin: 0;
     display: flex;
@@ -46,10 +45,39 @@ a{
 .logo{
     color: #F9faf8;
     font-size: 24px;
-    padding-left: 28px;
+    padding-left: 38px;
+    font-weight: bolder;
 }
 .header
 {
     display: flex;
     justify-content: space-between;
+    height: 50px;
+    background-color: #1f2937;
+    align-items: center;
+}
+.info{
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-grow: 1;
+}
+.website{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+.placeholder{
+    width: 350px;
+    height: 150px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic{
+    font-size: 48px;
 }
